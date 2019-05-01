@@ -46,9 +46,13 @@ def mergeSort(arr):
     return result;
 
 
+#Generating a array of random integers.
 rand = []
-for x in range(10000):
+for x in range(10):
     rand.append(randint(1,999999))
 
+
 a = mergeSort(rand)
+
+#Printing sorted int array
 print(a)
